@@ -6,7 +6,7 @@
     background-color: #f8f8f8;
 }
 
-.header__logo {
+.header__logo-img {
     width: 7rem;
     height: auto;
     object-fit: contain;
