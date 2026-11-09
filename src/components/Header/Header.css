@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #f8f8f8;
+}
+
+.header__logo {
+    width: 7rem;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.header__nav-list {
+    display:flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+.header__nav-list li {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
